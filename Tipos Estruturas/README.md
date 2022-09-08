@@ -54,6 +54,32 @@ Vamos refatorar os exemplos acima para ilustrar o pode deste recurso:
 
 Realmente deixa o código mas organizado e limpo na sua aréa de trabalho.
 
+## Switch Case
+
+A estrutura `Switch Case` compara o valor de cada caso o da variável sequencialmente, e sempre que encontra um valor correspondente, executa o código associado ao caso.
+Para evitar que as comparações continuem a ser executadas após um caso correspondente ter sido encontrado, acresentamos o comando `break` no final de cada bloco de código. O comando `break` quando executado, encerra a execução das estrutura onde ele se encontra.
+
+String sigla = "G";
+    
+    switch (sigla){
+        case "P" :{
+            System.out.println("Pequeno");
+            break;
+        }
+        case "M" : {
+            System.out.println("Médio");
+            break;
+        }
+        case "G" : {
+            System.out.println("Grande");
+        }
+        default:
+        System.out.println("Indefinido");
+    }    
+ 
+ 
+
+
 
     
 

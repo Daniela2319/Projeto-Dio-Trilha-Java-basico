@@ -22,5 +22,38 @@ Algumas vezes o nosso programa deverá seguir mais de uma jornada de execução 
     System.out.printl("Novo Saldo" + Saldo);   
 }   `else`     
     System.out.printl("Saldo Insuficiente");
+
+
+## Condicional Encadeadas
+
+Em um controle de fluxo condicional, nem sempre nos limitamos ao se (if) e se não (else), podemos ter uma terceira, quarta ou inumeras condições.
+
+int nota = 8;
+
+        if (nota >= 7){
+        System.out.println("Aprovado");
+
+        }else if (nota >= 5 && nota < 7){
+        System.out.println("Prova Recuperação");
+
+        }else
+        System.out.println("Reprovado");
+
+
+## Condição Ternária
+
+Como vimos em operadores, podemos abreviar nosso algoritimo condicional refatorando com o conceito de operador ternário.
+Vamos refatorar os exemplos acima para ilustrar o pode deste recurso:
+
+
+
+>int nota = 7;
+        String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+        System.out.println("Resultado:  " + resultado);
+
+
+Realmente deixa o código mas organizado e limpo na sua aréa de trabalho.
+
+
     
 
